@@ -1,5 +1,6 @@
 package guia05.Jaime;
 
-public class Contratable {
-
+public interface Contratable {
+	public  Double calcularCosto();
+	public Boolean finalizado();
 }
